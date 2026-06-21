@@ -1,0 +1,45 @@
+.card{
+  width:300px;
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.content{
+  padding:20px;
+}
+
+.content h3{
+  margin-bottom:10px;
+}
+.content p{
+  color:#666;
+  margin-bottom:10px;
+}
+
+.content h4{
+  color:orange;
+  margin-bottom:15px;
+}
+
+.content button{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background:orange;
+  color:white;
+  font-size:16px;
+}
