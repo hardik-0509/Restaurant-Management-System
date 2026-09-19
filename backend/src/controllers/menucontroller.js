@@ -53,7 +53,6 @@ export const getMenuItems = async (req, res) => {
 };
 
 
-// Filter Menu
 export const filterMenu = async (req, res) => {
 
     try {

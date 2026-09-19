@@ -1,19 +1,22 @@
 .container{
-    display:flex;
+   display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    height: 100vh;
-    background-color:url(../../assets/loginandsignup.webp) cover no-repeat;
+    min-height: 100vh;
+    background: url('../../assets/loginandsignup.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    padding-right: 5%;
 }
 .name{
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #4CAF50;
+    margin-left: 820px;
+    color: white;
+    align-self: center;
 }
 .form{
-   margin-top: 100px;
+   margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 400px;

@@ -14,18 +14,21 @@ function App() {
   const location = useLocation();
       
   return (
+
     <>
+         
       {location.pathname !== '/' && location.pathname !== '/signup' && <Navbar />}
       <Routes>
         {/* Authentication Pages */}
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-
+       
         {/* Main Pages */}
         <Route path='/home' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/register' element={<Register />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        
       </Routes>
     </>
   );

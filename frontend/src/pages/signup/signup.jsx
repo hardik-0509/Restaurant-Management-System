@@ -35,7 +35,7 @@ function Signup() {
     };
 
     return (
-        <div>
+        <div className={styles.container}>
 
             <h1 className={styles.header}>Create Account</h1>
 

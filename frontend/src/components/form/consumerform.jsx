@@ -7,7 +7,7 @@ const ConsumerForm = () => {
   const [form, setForm] = useState({
     name:'',
     email:'',
-    phone:''
+    phone_number:''
   })
 
   const handleSubmit = async (e) => {
@@ -20,7 +20,7 @@ const ConsumerForm = () => {
     setForm({
       name:'',
       email:'',
-      phone:''
+      phone_number:''
     })
   }
   return(

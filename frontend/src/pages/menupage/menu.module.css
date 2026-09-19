@@ -12,4 +12,39 @@
   flex-wrap:wrap;
   gap:30px;
   justify-content:center;
+  padding-top:20px;
+}
+h1{
+  color:orange;
+}
+.searchBox input{
+  width:50%;
+  margin-left:23%;
+  padding:10px;
+  border-radius:550px;
+  border:none;
+  transition:0.5s;
+}
+.searchBox input:focus{
+  outline:none;
+  box-shadow:0px 0px 15px orange;
+}
+.searchBox input:hover{
+ 
+  outline:none;
+  box-shadow:0px 0px 15px orange;
+}
+.searchBox button{
+  padding:10px 20px;
+  border-radius:550px;
+  border:none;
+  background-color:orange;
+  color:white;
+  margin-left:20px;
+  transition:0.5s;
+}
+.searchBox button:hover{
+  background-color:white;
+  color:orange;
+  border:1px solid orange;
 }

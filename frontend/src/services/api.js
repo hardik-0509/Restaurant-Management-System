@@ -54,3 +54,11 @@ export const login = async(data)=>{
 
    return await res.json();
 }
+export const searchMenu = async(name)=>{
+
+    const res = await fetch(
+        `${BASE_URL}/menu/search?name=${name}`
+    );
+
+    return await res.json();
+}
